@@ -3,7 +3,7 @@ spritekit-ropes
 
 Demo of iOS 7 SpriteKit and simple rope physics.
 
-Source code for my iOS 7 [SpriteKit](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/SpriteKit_PG/Introduction/Introduction.html) physics demo. Demo has simple rope, or more like a chain, which consists of nodes connected to each other with pin joints.
+Source code for my iOS 7 [SpriteKit](https://developer.apple.com/library/mac/documentation/GraphicsAnimation/Conceptual/SpriteKit_PG/Introduction/Introduction.html) physics demo. Demo has a simple rope, or more like a chain, which consists of nodes connected to each other with pin joints.
 
 [![SpriteKit Ropes on Youtube](http://img.youtube.com/vi/7jWdcbmnmKQ/0.jpg)](https://www.youtube.com/watch?v=7jWdcbmnmKQ&hd=1)
 
