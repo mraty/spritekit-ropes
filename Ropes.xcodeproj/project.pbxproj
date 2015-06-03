@@ -437,19 +437,19 @@
 		497EA05117DEE621003BF840 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Robes.app/Robes";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ropes.app/Ropes";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Robes/Robes-Prefix.pch";
+				GCC_PREFIX_HEADER = "Ropes/Ropes-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "RobesTests/RobesTests-Info.plist";
+				INFOPLIST_FILE = "RopesTests/RopesTests-Info.plist";
 				PRODUCT_NAME = RopesTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -459,15 +459,15 @@
 		497EA05217DEE621003BF840 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Robes.app/Robes";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ropes.app/Ropes";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Robes/Robes-Prefix.pch";
-				INFOPLIST_FILE = "RobesTests/RobesTests-Info.plist";
+				GCC_PREFIX_HEADER = "Ropes/Ropes-Prefix.pch";
+				INFOPLIST_FILE = "RopesTests/RopesTests-Info.plist";
 				PRODUCT_NAME = RopesTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
