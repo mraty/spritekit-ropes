@@ -86,8 +86,6 @@ class RopeNode: SKNode {
         if let nodeA: SKNode = self.startNode
         {
             let nodeB: SKSpriteNode = (self.ropeParts?.objectAtIndex(0)) as! SKSpriteNode
-            
-            //let anchorPoint: CGPoint = CGPointMake(CGRectGetMidX(nodeA.frame), CGRectGetMinY(nodeA.frame))
         
             let joint: SKPhysicsJointPin = SKPhysicsJointPin.jointWithBodyA(nodeA.physicsBody!, bodyB: nodeB.physicsBody!, anchor: self.positionOnStartNode!)
         
