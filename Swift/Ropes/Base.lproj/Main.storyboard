@@ -19,6 +19,11 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="WTJ-DG-UTO">
+                    <connections>
+                        <action selector="longTouchDetected:" destination="BV1-FR-VrT" id="RT8-ke-VuK"/>
+                    </connections>
+                </pongPressGestureRecognizer>
             </objects>
         </scene>
     </scenes>

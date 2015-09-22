@@ -13,6 +13,7 @@ class RopeGameScene: SKScene {
     var touchMoving: Bool = false
 
     var touchStartPoint: CGPoint?
+    var touchEndPoint: CGPoint?
     
     override init(size: CGSize) {
         super.init(size: size)
@@ -61,7 +62,6 @@ class RopeGameScene: SKScene {
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
        /* Called when a touch begins */
-        self.resetScene()
         for touch in touches {
             if(touches.count == 2)
             {
@@ -76,6 +76,44 @@ class RopeGameScene: SKScene {
                 touchStartPoint = location
             }
         }
+    }
+    override func touchesMoved(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for _ in touches {
+            if(touches.count == 1)
+            {
+                self.touchMoving = true
+            }
+        }
+    }
+    
+    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        for touch in touches {
+            if(touches.count == 1 && self.touchMoving == true)
+            {
+                let location = touch.locationInNode(self)
+                self.touchEndPoint = location
+                
+                if((self.touchStartPoint?.x != self.touchEndPoint?.x) && (self.touchStartPoint?.y != self.touchEndPoint?.y))
+                {
+                    print("Do rope cutting")
+                    
+                    if let body:SKPhysicsBody = self.physicsWorld.bodyAlongRayStart(self.touchStartPoint!, end:self.touchEndPoint!)
+                    {
+
+                        if let joint: SKPhysicsJoint = body.joints.first
+                        {
+                            self.physicsWorld.removeJoint(joint)
+                        }
+
+                        
+                        
+                    }
+                    
+                    
+                }
+            }
+        }
+        self.touchMoving = false
     }
    
     override func update(currentTime: CFTimeInterval) {
