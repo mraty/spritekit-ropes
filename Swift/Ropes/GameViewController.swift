@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  Ropes
 //
-//  Created by Luke Durrant on 22/09/2015.
+//  Created by Luke Durrant (@durrantluke) on 22/09/2015.
 //  Copyright (c) 2015 Bingy Bongy. All rights reserved.
 //
 
