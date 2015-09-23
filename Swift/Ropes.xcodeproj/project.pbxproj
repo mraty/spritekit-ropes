@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30880701BB15AE8001F1EF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308806F1BB15AE8001F1EF0 /* AppDelegate.swift */; };
+		A30880741BB15AE8001F1EF0 /* RopeGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30880731BB15AE8001F1EF0 /* RopeGameScene.swift */; };
+		A30880761BB15AE8001F1EF0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30880751BB15AE8001F1EF0 /* GameViewController.swift */; };
+		A30880791BB15AE8001F1EF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30880771BB15AE8001F1EF0 /* Main.storyboard */; };
+		A308807B1BB15AE8001F1EF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A308807A1BB15AE8001F1EF0 /* Assets.xcassets */; };
+		A308807E1BB15AE8001F1EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A308807C1BB15AE8001F1EF0 /* LaunchScreen.storyboard */; };
+		A30880891BB15AE9001F1EF0 /* RopesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30880881BB15AE9001F1EF0 /* RopesTests.swift */; };
+		A30880941BB15AE9001F1EF0 /* RopesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30880931BB15AE9001F1EF0 /* RopesUITests.swift */; };
+		A30880A61BB15BE3001F1EF0 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A30880A21BB15BE3001F1EF0 /* Ball.png */; settings = {ASSET_TAGS = (); }; };
+		A30880A71BB15BE3001F1EF0 /* Branch.png in Resources */ = {isa = PBXBuildFile; fileRef = A30880A31BB15BE3001F1EF0 /* Branch.png */; settings = {ASSET_TAGS = (); }; };
+		A30880A81BB15BE3001F1EF0 /* rope_ring.png in Resources */ = {isa = PBXBuildFile; fileRef = A30880A41BB15BE3001F1EF0 /* rope_ring.png */; settings = {ASSET_TAGS = (); }; };
+		A30880A91BB15BE3001F1EF0 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = A30880A51BB15BE3001F1EF0 /* spark.png */; settings = {ASSET_TAGS = (); }; };
+		A30880AB1BB15CDB001F1EF0 /* RopeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30880AA1BB15CDB001F1EF0 /* RopeNode.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30880851BB15AE9001F1EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30880641BB15AE8001F1EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A308806B1BB15AE8001F1EF0;
+			remoteInfo = Ropes;
+		};
+		A30880901BB15AE9001F1EF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30880641BB15AE8001F1EF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A308806B1BB15AE8001F1EF0;
+			remoteInfo = Ropes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A308806C1BB15AE8001F1EF0 /* Ropes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ropes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A308806F1BB15AE8001F1EF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A30880731BB15AE8001F1EF0 /* RopeGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopeGameScene.swift; sourceTree = "<group>"; };
+		A30880751BB15AE8001F1EF0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A30880781BB15AE8001F1EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A308807A1BB15AE8001F1EF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A308807D1BB15AE8001F1EF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A308807F1BB15AE8001F1EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30880841BB15AE9001F1EF0 /* RopesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RopesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30880881BB15AE9001F1EF0 /* RopesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopesTests.swift; sourceTree = "<group>"; };
+		A308808A1BB15AE9001F1EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A308808F1BB15AE9001F1EF0 /* RopesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RopesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30880931BB15AE9001F1EF0 /* RopesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RopesUITests.swift; sourceTree = "<group>"; };
+		A30880951BB15AE9001F1EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30880A21BB15BE3001F1EF0 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+		A30880A31BB15BE3001F1EF0 /* Branch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Branch.png; sourceTree = "<group>"; };
+		A30880A41BB15BE3001F1EF0 /* rope_ring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rope_ring.png; sourceTree = "<group>"; };
+		A30880A51BB15BE3001F1EF0 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		A30880AA1BB15CDB001F1EF0 /* RopeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RopeNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30880691BB15AE8001F1EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30880811BB15AE9001F1EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308808C1BB15AE9001F1EF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30880631BB15AE8001F1EF0 = {
+			isa = PBXGroup;
+			children = (
+				A30880A11BB15BE3001F1EF0 /* Assets */,
+				A308806E1BB15AE8001F1EF0 /* Ropes */,
+				A30880871BB15AE9001F1EF0 /* RopesTests */,
+				A30880921BB15AE9001F1EF0 /* RopesUITests */,
+				A308806D1BB15AE8001F1EF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A308806D1BB15AE8001F1EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A308806C1BB15AE8001F1EF0 /* Ropes.app */,
+				A30880841BB15AE9001F1EF0 /* RopesTests.xctest */,
+				A308808F1BB15AE9001F1EF0 /* RopesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A308806E1BB15AE8001F1EF0 /* Ropes */ = {
+			isa = PBXGroup;
+			children = (
+				A308806F1BB15AE8001F1EF0 /* AppDelegate.swift */,
+				A30880731BB15AE8001F1EF0 /* RopeGameScene.swift */,
+				A30880AA1BB15CDB001F1EF0 /* RopeNode.swift */,
+				A30880751BB15AE8001F1EF0 /* GameViewController.swift */,
+				A30880771BB15AE8001F1EF0 /* Main.storyboard */,
+				A308807A1BB15AE8001F1EF0 /* Assets.xcassets */,
+				A308807C1BB15AE8001F1EF0 /* LaunchScreen.storyboard */,
+				A308807F1BB15AE8001F1EF0 /* Info.plist */,
+			);
+			path = Ropes;
+			sourceTree = "<group>";
+		};
+		A30880871BB15AE9001F1EF0 /* RopesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A30880881BB15AE9001F1EF0 /* RopesTests.swift */,
+				A308808A1BB15AE9001F1EF0 /* Info.plist */,
+			);
+			path = RopesTests;
+			sourceTree = "<group>";
+		};
+		A30880921BB15AE9001F1EF0 /* RopesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A30880931BB15AE9001F1EF0 /* RopesUITests.swift */,
+				A30880951BB15AE9001F1EF0 /* Info.plist */,
+			);
+			path = RopesUITests;
+			sourceTree = "<group>";
+		};
+		A30880A11BB15BE3001F1EF0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A30880A21BB15BE3001F1EF0 /* Ball.png */,
+				A30880A31BB15BE3001F1EF0 /* Branch.png */,
+				A30880A41BB15BE3001F1EF0 /* rope_ring.png */,
+				A30880A51BB15BE3001F1EF0 /* spark.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A308806B1BB15AE8001F1EF0 /* Ropes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30880981BB15AE9001F1EF0 /* Build configuration list for PBXNativeTarget "Ropes" */;
+			buildPhases = (
+				A30880681BB15AE8001F1EF0 /* Sources */,
+				A30880691BB15AE8001F1EF0 /* Frameworks */,
+				A308806A1BB15AE8001F1EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ropes;
+			productName = Ropes;
+			productReference = A308806C1BB15AE8001F1EF0 /* Ropes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A30880831BB15AE9001F1EF0 /* RopesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A308809B1BB15AE9001F1EF0 /* Build configuration list for PBXNativeTarget "RopesTests" */;
+			buildPhases = (
+				A30880801BB15AE9001F1EF0 /* Sources */,
+				A30880811BB15AE9001F1EF0 /* Frameworks */,
+				A30880821BB15AE9001F1EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30880861BB15AE9001F1EF0 /* PBXTargetDependency */,
+			);
+			name = RopesTests;
+			productName = RopesTests;
+			productReference = A30880841BB15AE9001F1EF0 /* RopesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A308808E1BB15AE9001F1EF0 /* RopesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A308809E1BB15AE9001F1EF0 /* Build configuration list for PBXNativeTarget "RopesUITests" */;
+			buildPhases = (
+				A308808B1BB15AE9001F1EF0 /* Sources */,
+				A308808C1BB15AE9001F1EF0 /* Frameworks */,
+				A308808D1BB15AE9001F1EF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30880911BB15AE9001F1EF0 /* PBXTargetDependency */,
+			);
+			name = RopesUITests;
+			productName = RopesUITests;
+			productReference = A308808F1BB15AE9001F1EF0 /* RopesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30880641BB15AE8001F1EF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bingy Bongy";
+				TargetAttributes = {
+					A308806B1BB15AE8001F1EF0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A30880831BB15AE9001F1EF0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A308806B1BB15AE8001F1EF0;
+					};
+					A308808E1BB15AE9001F1EF0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A308806B1BB15AE8001F1EF0;
+					};
+				};
+			};
+			buildConfigurationList = A30880671BB15AE8001F1EF0 /* Build configuration list for PBXProject "Ropes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A30880631BB15AE8001F1EF0;
+			productRefGroup = A308806D1BB15AE8001F1EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A308806B1BB15AE8001F1EF0 /* Ropes */,
+				A30880831BB15AE9001F1EF0 /* RopesTests */,
+				A308808E1BB15AE9001F1EF0 /* RopesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A308806A1BB15AE8001F1EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30880A81BB15BE3001F1EF0 /* rope_ring.png in Resources */,
+				A30880A71BB15BE3001F1EF0 /* Branch.png in Resources */,
+				A308807E1BB15AE8001F1EF0 /* LaunchScreen.storyboard in Resources */,
+				A30880A61BB15BE3001F1EF0 /* Ball.png in Resources */,
+				A30880A91BB15BE3001F1EF0 /* spark.png in Resources */,
+				A308807B1BB15AE8001F1EF0 /* Assets.xcassets in Resources */,
+				A30880791BB15AE8001F1EF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30880821BB15AE9001F1EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308808D1BB15AE9001F1EF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30880681BB15AE8001F1EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30880741BB15AE8001F1EF0 /* RopeGameScene.swift in Sources */,
+				A30880AB1BB15CDB001F1EF0 /* RopeNode.swift in Sources */,
+				A30880761BB15AE8001F1EF0 /* GameViewController.swift in Sources */,
+				A30880701BB15AE8001F1EF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30880801BB15AE9001F1EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30880891BB15AE9001F1EF0 /* RopesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A308808B1BB15AE9001F1EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30880941BB15AE9001F1EF0 /* RopesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30880861BB15AE9001F1EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A308806B1BB15AE8001F1EF0 /* Ropes */;
+			targetProxy = A30880851BB15AE9001F1EF0 /* PBXContainerItemProxy */;
+		};
+		A30880911BB15AE9001F1EF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A308806B1BB15AE8001F1EF0 /* Ropes */;
+			targetProxy = A30880901BB15AE9001F1EF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A30880771BB15AE8001F1EF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A30880781BB15AE8001F1EF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A308807C1BB15AE8001F1EF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A308807D1BB15AE8001F1EF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A30880961BB15AE9001F1EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A30880971BB15AE9001F1EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A30880991BB15AE9001F1EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ropes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingybongy.Ropes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A308809A1BB15AE9001F1EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ropes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingybongy.Ropes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A308809C1BB15AE9001F1EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RopesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingybongy.RopesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ropes.app/Ropes";
+			};
+			name = Debug;
+		};
+		A308809D1BB15AE9001F1EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RopesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingybongy.RopesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ropes.app/Ropes";
+			};
+			name = Release;
+		};
+		A308809F1BB15AE9001F1EF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RopesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingybongy.RopesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ropes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A30880A01BB15AE9001F1EF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RopesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingybongy.RopesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Ropes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30880671BB15AE8001F1EF0 /* Build configuration list for PBXProject "Ropes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30880961BB15AE9001F1EF0 /* Debug */,
+				A30880971BB15AE9001F1EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30880981BB15AE9001F1EF0 /* Build configuration list for PBXNativeTarget "Ropes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30880991BB15AE9001F1EF0 /* Debug */,
+				A308809A1BB15AE9001F1EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A308809B1BB15AE9001F1EF0 /* Build configuration list for PBXNativeTarget "RopesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A308809C1BB15AE9001F1EF0 /* Debug */,
+				A308809D1BB15AE9001F1EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A308809E1BB15AE9001F1EF0 /* Build configuration list for PBXNativeTarget "RopesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A308809F1BB15AE9001F1EF0 /* Debug */,
+				A30880A01BB15AE9001F1EF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A30880641BB15AE8001F1EF0 /* Project object */;
+}

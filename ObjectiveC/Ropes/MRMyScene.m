@@ -63,7 +63,8 @@
 }
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    _touchMoving = NO;
+    
+    /*_touchMoving = NO;
     
     /* Called when a touch begins */
     for (UITouch *touch in touches) {
